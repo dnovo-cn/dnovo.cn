@@ -1,4 +1,4 @@
-baseURL = "https://sunny-kulfi-ee54d7.netlify.app/"
+baseURL = "https://blog.dnovo.cn"
 title = "Dnzhiwei"
 theme = "hugo-coder"
 languageCode = "zh-cn"
