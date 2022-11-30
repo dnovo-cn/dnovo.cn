@@ -1,6 +1,6 @@
 baseURL = "https://sunny-kulfi-ee54d7.netlify.app/"
 title = "Dnzhiwei"
-theme = "ananke"
+theme = "hugo-coder"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 paginate = 20
