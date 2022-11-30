@@ -103,33 +103,55 @@ series = "series"
 tag = "tags"
 author = "authors"
 
-[params.utteranc]
-  enable = true
-  repo = "dnovo-cn/dnovo.cn"
-  issueTerm = "pathname"
-  theme = "github-light"
+[languages.en]
+languageName = ":uk:"
 
-      [languages.zh-cn]
-        languagename = "Chinese"
-        title = "构建我的被动收入"
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
 
-        [languages.zh-cn.params]
-            author = "马大伟"
-            info1 = "📚"
-            info1Tooltip = "终身学习/认知杠杆"
-            info2 = "👨‍💻"
-            info2Tooltip = "全栈技术/时间杠杆"
-            info3 = "💴"
-            info3Tooltip = "投资理财/财务杠杆"
-            description = "终身学习（认知杠杆）* 全栈技术（时间杠杆）* 投资理财（财务杠杆） => 被动收入（人生杠杆）"
-            # footercontent = "self/dev/money"
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
 
-        [languages.zh-cn.menu]
-            [[languages.zh-cn.menu.main]]
-                name = "Twitter"
-                weight = 1
-                url  = "https://twitter.com/madawei2699"
-            [[languages.zh-cn.menu.main]]
-                name = "关于"
-                weight = 2
-                url = "/about/"
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
+
+[languages.zh-cn]
+languageName = "zh-cn"
+title = "晨霜赴雪"
+
+[languages.zh-cn.params]
+author = "丁志伟"
+info = "修身齐家治国平天下"
+description = "君子慎独"
+keywords = "博客,开发,个人"
+
+[[languages.zh-cn.menu.main]]
+name = "关于"
+weight = 1
+url = "about/"
+
+[[languages.zh-cn.menu.main]]
+name = "博客"
+weight = 2
+url = "posts/"
+
+[[languages.zh-cn.menu.main]]
+name = "项目"
+weight = 3
+url = "projects/"
+
+[[languages.zh-cn.menu.main]]
+name = "联系"
+weight = 5
+url = "contact/"
