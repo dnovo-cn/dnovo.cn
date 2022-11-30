@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "https://sunny-kulfi-ee54d7.netlify.app/"
 title = "Dnzhiwei"
 theme = "ananke"
 languageCode = "zh-cn"
